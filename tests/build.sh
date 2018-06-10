@@ -1,5 +1,5 @@
 #!/bin/bash
 
-IMAGE_NAME="jockdarrock/rabbitmq-with-ssl"
+IMAGE_NAME="jockdarock/rabbitmq-with-ssl"
 
 docker build --no-cache=true -t ${IMAGE_NAME} ..
